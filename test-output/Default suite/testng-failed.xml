@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.qa.ewl.tests.CreateBookingTest">
+      <class name="com.qa.ewl.tests.BookingListTest">
         <methods>
           <include name="setup"/>
-          <include name="createNewBooking"/>
+          <include name="BookingListTitleTest"/>
           <include name="tearDown"/>
         </methods>
-      </class> <!-- com.qa.ewl.tests.CreateBookingTest -->
+      </class> <!-- com.qa.ewl.tests.BookingListTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

@@ -1,8 +1,4 @@
 package com.qa.ewl.tests;
-
-
-import static org.testng.Assert.assertEquals;
-
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
