@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [EWL Test PW Suite]" guice-stage="DEVELOPMENT" verbose="4">
+  <listeners>
+    <listener class-name="com.qa.ewl.listners.ExtentReoportListner"/>
+  </listeners>
+  <test thread-count="5" name="Login Page Test(failed)" verbose="4">
+    <classes>
+      <class name="com.qa.ewl.tests.CreateBookingTest">
+        <methods>
+          <include name="setup"/>
+          <include name="createNewBooking"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.qa.ewl.tests.CreateBookingTest -->
+    </classes>
+  </test> <!-- Login Page Test(failed) -->
+</suite> <!-- Failed suite [EWL Test PW Suite] -->
